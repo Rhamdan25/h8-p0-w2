@@ -1,0 +1,103 @@
+______________________________________
+1. Newton Second Law
+______________________________________
+        /A L G O R I T H M/
+
+set 'mass' to 600
+set 'acceleration' to 2
+multiply 'mass' with 'acceleration'
+set the multiplication result into 'Force'
+display the value of 'Force'
+
+        /P S E U D O C O D E/
+
+READ and SAVE "mass" with any the value of 600
+READ and SAVE "acceleration" with the value of 2
+STORE "Force" without any value
+CALCULATE "mass" times "acceleration"
+SET "Force" value with calculation result
+DISPLAY "Force"
+
+_______________________________________
+2. Tahun Kabisat
+_______________________________________
+        /A L G O R I T H M/
+
+set 'year' to a number
+set 'leapyear' without value
+
+if 'year' can be devided with 4 AND cannot be devided with 100, leapyear is true
+if not, check if 'year' can be devided with 400. is so, leapyear is true
+other than that, leapyear is false.
+
+
+if 'leapyear' is true, display "Year (year) is a leap year"
+if 'leapyear' is false, display "Year (year) is not a leap year"
+
+        /P S E U D O C O D E/
+
+READ and SAVE "year" with any value
+STORE "leapyear" without any value
+
+IF "year" % 4 = 0 ,
+    IF "year" % 100 = 0
+        IF "year" % 400 = 0
+            SET "leapyear" to True
+        ELSE
+            SET "leapyear" to False
+    ELSE SET "leapyear" to True
+ELSE SET "leapyear" to False
+
+IF "leapyear" = True
+    DISPLAY 'Year [year] is a leap year'
+ELSE IF "leapyear" = False
+    DISPLAY 'Year [year] is not a leap year'
+
+_______________________________________
+3. Laundry Day
+_______________________________________
+        /A L G O R I T H M/
+
+set 'clothing' to  1
+
+When clothing =< 20, 
+    Display "clothing number (clothing) has been put inside the washing machine"
+    increase the value of clothing by 1
+    repeat
+
+display "Turn the washing machine on"
+
+        /P S E U D O C O D E/
+
+READ and SAVE "clothing" with the value of 1
+
+WHILE clothing =< 20
+    DISPLAY 'clothing number [clothing] has been put inside the washing machine'
+    ADD 1 to "clothing"
+
+DISPLAY 'Turn the washing machine on'
+
+_______________________________________
+4. Periksa Kuku
+_______________________________________
+        /A L G O R I T H M/
+
+set 'student' to 40
+set 'goodnails' to True of False
+
+When 'student' is more than 0,
+    if 'goodnails' is True , compliment the student
+    if 'goodnails' is False, punish the student
+
+        /P S E U D O C O D E/
+
+READ and SAVE "student" with the number of 40
+READ and SAVE "goodnails" with a BOOLEAN value
+
+WHILE "student" > 0
+    IF "goodnails" = True 
+        DO 'Compliment'
+    ELSE IF "goodnails" = False
+        DO 'Punish'
+SUBTRACT "student" by 1
+
