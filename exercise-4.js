@@ -1,15 +1,18 @@
 var tanggal = 21; // assign nilai variabel tanggal disini! (dengan angka antara 1 - 31)
 var bulan = 1; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
 var tahun = 1945; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
+var tanggal = 21; // assign nilai variabel tanggal disini! (dengan angka antara 1 - 31)
+var bulan = 1; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
+var tahun = 1945; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
 
 //Tanggal
 if( tanggal>0 && tanggal <=31)
 {
-    Date = tanggal;
+    date = tanggal;
 }
 else
 {
-    Date = false;
+    date = false;
     console.log('Tanggal tidak valid');
 }
 
@@ -59,7 +62,7 @@ if( bulan>0 && bulan <= 12 )
             month = 'Bulan';
     }
 }
-else 
+else
 {
     month = false;
     console.log('Bulan tidak valid');
@@ -70,7 +73,7 @@ if( tahun>=1900 && tahun<=2200 )
 {
     year = tahun;
 }
-else 
+else
 {
     year = false;
     console.log('Tahun tidak valid');
