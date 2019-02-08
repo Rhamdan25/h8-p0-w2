@@ -53,7 +53,6 @@ console.log('----------------------------------');
 //perulangan 1 - 100 dengan pertambahan counter sebanyak 2
 for(var b=1 ; b<=100 ; b+=2)
 {
-    console.log(b);
     if(b%3==0)
     {
         console.log(b + ' KELIPATAN 3');
@@ -65,23 +64,21 @@ console.log('----------------------------------');
 //perulangan 1 - 100 dengan pertambahan counter sebanyak 5
 for(var c=1 ; c<=100 ; c+=5)
 {
-    console.log(c);
     if(c%6==0)
     {
         console.log(c + ' KELIPATAN 6');
     }
-    
+
 }
 
 console.log('----------------------------------');
-    
+
 //perulangan 1 - 100 dengan pertambahan counter sebanyak 9
 for(var d=1 ; d<=100 ; d+=9)
 {
-    console.log(d);
     if(d%10==0)
     {
         console.log(d + ' KELIPATAN 10');
     }
-    
+
 }

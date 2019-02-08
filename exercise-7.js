@@ -15,7 +15,7 @@ var rows2 = 5;
 var asterisk2 = ''
 
 for (var i = 0; i < rows2 ; i++ ) {
-  for (var j = 0; j < 5 ; j++)
+  for (var j = 0; j < rows2 ; j++)
     asterisk2 += '*'
 asterisk2 += '\n' 
 }
